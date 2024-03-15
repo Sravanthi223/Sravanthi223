@@ -13,7 +13,6 @@ def get_value_from_nested_object(obj, key):
         return None
 
 #Input variables 
-
 object_input = input("Enter objects as dictionary: ")
 key_input = input("Enter keys as dictionary: ")
 
@@ -23,5 +22,6 @@ try:
 except (NameError, SyntaxError):
     print("Invalid input. Please enter valid Python dictionary format.")
     exit()
-
+    
+#Calling the defined function
 print(get_value_from_nested_object(objects, keys))
