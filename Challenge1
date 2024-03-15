@@ -1,0 +1,18 @@
+Challenge #1
+
+A 3-tier environment is a common setup. Use a tool of your choosing/familiarity create these resources on a cloud environment (Azure/AWS/GCP). Please remember we will not be judged on the outcome but more focusing on the approach, style and reproducibility.
+
+Solution:
+
+Pre-requisites:
+
+Azure Subscription account
+Azure devOps
+Storage account for storing TfState file (You can create Storage account while running the release pipeline and you can pass the Storage account values)
+
+DevOps Tools:
+
+GitHub, Source Code Management
+Azure Devops, for Continuous Integration
+Terraform for Cloud Provisioning Tool
+Azure, for public cloud service platform
