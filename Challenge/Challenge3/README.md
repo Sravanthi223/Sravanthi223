@@ -5,6 +5,7 @@ The choice of language and implementation is up to you.
 
 
 Example Inputs
+
 object = {"a":{"b":{"c":"d"}}}
 key = a/b/c
 
